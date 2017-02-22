@@ -26,12 +26,11 @@ BOARD_CUSTOM_BT_CONFIG := device/lge/d851/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_d851_defconfig
-TARGET_KERNEL_HAVE_EXFAT := true
-TARGET_KERNEL_HAVE_NTFS := true
+TARGET_KERNEL_CONFIG := cyanogenmod_d851_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
+TARGET_REQUIRES_BUMP := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
